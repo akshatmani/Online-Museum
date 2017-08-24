@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color:black">
+    <form id="form1" runat="server">
+        &nbsp;
+        <asp:Image ID="Image2" runat="server" ImageUrl="~/Data/logoimnew.png" Height="90px" Width="256px" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Image ID="Image1" runat="server" ImageUrl="~/Data/imimage.png" Height="90px" Width="385px" /><br />
+        <br />
+        <a href="Home.aspx" style="color:#FF9900"">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="History.aspx" style="color: #FF9900">History</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="V_Tour.aspx" style="color: #FF9900">Virtual Tour</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Site.aspx" style="color: #FF9900">Site Map</a>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <form id="footer">
+            <div style="color: #FF9900; width: 50%; z-index: auto; position: relative; left: inherit; float:left;">
+                <ul style="text-align:center">
+                <h2 style="color: #FF9900; font-size: 30px; text-decoration: underline; left: auto; text-align:center;">Gallery</h2>
+                <li><a href="Arch.aspx" style="color: #FF9900; font-size: 20px;">Archaeology Section</a></li>
+                <li><a href="Art.aspx" style="color: #FF9900; font-size: 20px;">Art Section</a></li>
+                <li><a href="Anth.aspx" style="color: #FF9900; font-size: 20px;">Anthropology Section</a></li>
+                <li><a href="Zoo.aspx" style="color: #FF9900; font-size: 20px;">Zoological Section</a></li>
+                </ul>
+            </div>
+            <div style="color: #FF9900; width: 50%; z-index: auto; position: relative; left: inherit; float:right;">
+                <ul style="text-align:center">
+                <h2 style="color: #FF9900; font-size: 30px; text-decoration: underline; left: auto; text-align:center;">Visitor's Information</h2>
+                <li><a href="Contact.aspx" style="color: #FF9900; font-size: 20px;">Contact</a></li>
+                <li><a href="Location.aspx" style="color: #FF9900; font-size: 20px;">Location</a></li>
+                <li><a href="Visit.aspx" style="color: #FF9900; font-size: 20px;">Plan your Visit</a></li>
+                <li><a href="Facilities.aspx" style="color: #FF9900; font-size: 20px;">Facilities</a></li>
+                <li><a href="Tickets.aspx" style="color: #FF9900; font-size: 20px;">Ticket Rates</a></li>
+                </ul>
+            </div>
+        </form>
+    <div style="color:#FF9900; width:50%; z-index:auto; position:relative; left:inherit; float:left;">
+        <b>Maintained By,</b><br />
+        <br />
+        Abhishek Sharma,<br />
+        Akshat Mani,<br />
+        Kritika Sinha&nbsp; &<br />
+        Nalini Srivastava<br />
+    </div>
+</body>
+</html>
